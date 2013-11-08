@@ -1,10 +1,10 @@
 #require File.join(File.dirname(__FILE__), "spec_helper")
 require "spec_helper"
-Module Math
+module Math 
 	describe Matrix do
 		before :each do
-              @p = Matrix.new(3, 3)
-            end
+            @p = Matrix.new(3, 3)
+        end
 		#Debe existir el operador []
 		context "1. Si se quiere indexar cualquier elemento de la matriz" do
             it "Debe hacerse mediante el operador []" do

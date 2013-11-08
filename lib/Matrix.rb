@@ -1,4 +1,4 @@
-Module Math
+module Math
 	class Matrix
 		attr_accessor :m
 		attr_accessor :f
